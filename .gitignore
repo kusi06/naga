@@ -1,2 +1,32 @@
-/*/
-!/Assets/script/*
+# Unity 기본 무시 설정
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# 에셋 전체 무시
+Assets/*
+
+# scripts 폴더만 포함
+!Assets/script/
+!Assets/script/**
+
+# 기타 파일 포함
+!*.meta
